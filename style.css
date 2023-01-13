@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: lightgreen;
+}
+#btn{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-size: 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+	width: 400px;
+	height: 60px;
+	border-radius: 30px;
+	text-align: center;
+	line-height: 60px;
+	background: linear-gradient(90deg, #03a9f4, #f4415a, #ffeb3b, #03a9f4);
+	background-size: 400%;
+	z-indent: 1;
+}
+#btn:hover{
+	animation: ooo 8s linear infinite;
+}
+@keyframes ooo{
+	from{background-position: 0%}
+	to{background-position: 400%}
+}
+#btn:before{
+	content: 'Button';
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	right: -5px;
+	bottom: -5px;
+	z-indent: 1;
+	background: linear-gradient(90deg, #03a9f4, #f4415a, #ffeb3b, #03a9f4);
+	background-size: 400%;
+	border-radius: 40px;
+	filter: blur(40px)
+}
+#pera1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:190px;
+	margin-left:-69px;
+	color: #fff;
+	font-size: 24px;
+	text-decoration: none;
+	
+   
+	
+}
+
+#demo{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top:190px;
+	margin-left:29px;
+	color: #fff;
+	font-size: 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+   
+	
+}
